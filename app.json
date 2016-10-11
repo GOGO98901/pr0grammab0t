@@ -1,0 +1,7 @@
+{
+  "name": "pr0grammab0t discord bot",
+  "description": "Rory Claasen's Personal Discord bot",
+  "repository": "https://github.com/GOGO98901/pr0grammab0t",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "discord", "bot"]
+}

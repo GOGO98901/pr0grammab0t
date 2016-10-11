@@ -1,6 +1,6 @@
 {
   "name": "pr0grammab0t",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Rory Claasen's Personal Discord bot",
   "main": "bot.js",
   "scripts": {
