@@ -1,0 +1,22 @@
+{
+  "name": "pr0grammab0t",
+  "version": "1.0.0",
+  "description": "Rory Claasen's Personal Discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOGO98901/pr0grammab0t.git"
+  },
+  "author": "Rory Claasen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GOGO98901/pr0grammab0t/issues"
+  },
+  "homepage": "https://github.com/GOGO98901/pr0grammab0t#readme",
+  "dependencies": {
+    "discordie": "^0.8.1"
+  }
+}
