@@ -1,11 +1,11 @@
 {
   "name": "pr0grammab0t",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rory Claasen's Personal Discord bot",
   "main": "bot.js",
   "scripts": {
     "test": "nodemon bot.js",
-    "start": "node bot.js"
+    "start": "nodemon bot.js"
   },
   "repository": {
     "type": "git",
