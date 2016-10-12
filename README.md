@@ -16,8 +16,8 @@ If you allready have your own bot or would like to create your own bot using thi
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-git git@github.com:SloppierKitty7/Sloppiers-heroku-discord-bot.git # or clone your own fork
-cd Sloppiers-heroku-discord-bot
+git git@github.com:GOGO98901/pr0grammab0t.git # or clone your own fork
+cd pr0grammab0t
 npm install
 npm start
 ```
@@ -25,10 +25,10 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
-```
+```sh
 heroku create
 git push heroku master
-heroku config:set TOKEN {Your_Token}
+heroku config:set TOKEN={Your_Token} # replace {Your_Token} with the token that you have collected from discord
 heroku config:get TOKEN -s  >> .env
 heroku open
 ```
