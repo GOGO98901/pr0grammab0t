@@ -9,11 +9,11 @@ If you allready have your own bot or would like to create your own bot using thi
 
 1. Create your own bot on [discord developer applications](https://discordapp.com/developers/applications)
 2. Set the bot to be an *app bot user* and collect the token
-3. Do one of the following bellow
+3. And follow the instructions bellow
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```sh
 git git@github.com:GOGO98901/pr0grammab0t.git # or clone your own fork
@@ -21,21 +21,6 @@ cd pr0grammab0t
 npm install
 npm start
 ```
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```sh
-heroku create
-git push heroku master
-heroku config:set TOKEN={Your_Token} # replace {Your_Token} with the token that you have collected from discord
-heroku config:get TOKEN -s  >> .env
-heroku open
-```
-
-Alternatively, you can deploy your own copy of the app using the web-based flow:
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/GOGO98901/pr0grammab0t/tree/master&env[TOKEN]=Your_Token)
 
 ## Adding the bot to your server
 
@@ -47,13 +32,3 @@ Using the link bellow, replace `{client_id}` with the client id of your own bot 
 https://discordapp.com/oauth2/authorize?&client_id={client_id}&scope=bot
 ```
 Simple.
-	
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [10 Habits of a Happy Node Hacker](https://blog.heroku.com/archives/2014/3/11/node-habits)
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
